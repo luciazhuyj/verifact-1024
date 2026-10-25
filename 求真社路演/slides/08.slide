@@ -1,0 +1,82 @@
+<Slide style={{ background: '#F4F1E9', padding: '20px 72px' }}>
+
+  {/* A · 标题块 */}
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+    <Box style={{ width: 5, height: 26, background: '#A8351A' }} />
+    <Text style={{ fontFamily: 'Songti SC', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>
+      三个进阶，都做了
+    </Text>
+  </Box>
+
+  {/* B · 左标题 + 右 Diagram */}
+  <Box style={{ height: 540, flexDirection: 'row', gap: 36, paddingTop: 14 }}>
+
+    {/* 左 38% */}
+    <Box style={{ width: 400, justifyContent: 'center', gap: 20 }}>
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 30, fontWeight: '600', color: '#1A1A1A', lineHeight: 1.45 }}>
+        不是报菜名<br />每个都能当场演
+      </Text>
+      <Box style={{ height: 2, background: 'rgba(63,74,85,0.30)' }} />
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 18, color: '#3F4A55', lineHeight: 1.7 }}>
+        赛道给的三条进阶挑战是选做，做了明显加分。我们没有挑一条做深，而是三条全接。
+      </Text>
+      <Box style={{ background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderLeft: '4px solid #A8351A', padding: '14px 16px' }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#1A1A1A', lineHeight: 1.6 }}>
+          三条进阶共用同一条流水线：检索 → 交叉比对 → 落章。差别只在入口和出口。
+        </Text>
+      </Box>
+    </Box>
+
+    {/* 右 62% · 三分支 */}
+    <Box style={{ flex: 1, gap: 16, justifyContent: 'center' }}>
+
+      {/* 分支 1 */}
+      <Box style={{ flexDirection: 'row', background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '16px 18px', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 56, height: 56, background: '#1A1A1A', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 26, fontWeight: 'bold', color: '#F4F1E9' }}>壹</Text>
+        </Box>
+        <Box style={{ flex: 1 }}>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 23, fontWeight: '600', color: '#1A1A1A' }}>深度调查</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', lineHeight: 1.6, marginTop: 6 }}>
+            自己拆步骤、跑四组检索式、交叉比对，最后交一份带证据链的调查报告，可一键导出 Markdown。
+          </Text>
+        </Box>
+      </Box>
+
+      {/* 分支 2 */}
+      <Box style={{ flexDirection: 'row', background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '16px 18px', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 56, height: 56, background: '#1A1A1A', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 26, fontWeight: 'bold', color: '#F4F1E9' }}>贰</Text>
+        </Box>
+        <Box style={{ flex: 1 }}>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 23, fontWeight: '600', color: '#1A1A1A' }}>持续盯梢</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', lineHeight: 1.6, marginTop: 6 }}>
+            加入盯梢名单后每天自动重查一遍；结论一旦变化立刻提醒——名单里已经躺着一条"由存疑转不实"的真实变化。
+          </Text>
+        </Box>
+      </Box>
+
+      {/* 分支 3 */}
+      <Box style={{ flexDirection: 'row', background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '16px 18px', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 56, height: 56, background: '#A8351A', alignItems: 'center', justifyContent: 'center' }}>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 26, fontWeight: 'bold', color: '#F4F1E9' }}>叁</Text>
+        </Box>
+        <Box style={{ flex: 1 }}>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 23, fontWeight: '600', color: '#1A1A1A' }}>截图查证</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', lineHeight: 1.6, marginTop: 6 }}>
+            直接把家族群那张截图丢进来，先认出图里说了什么，再逐句拿去查——最贴近真实使用场景的一个入口。
+          </Text>
+        </Box>
+      </Box>
+
+    </Box>
+
+  </Box>
+
+  {/* C · 页脚 */}
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', opacity: 0.6 }}>求真社 · Verifact</Text>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55' }}>08 / 12</Text>
+  </Box>
+
+</Slide>

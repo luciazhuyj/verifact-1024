@@ -1,0 +1,73 @@
+<Slide style={{ background: '#F4F1E9', padding: '20px 72px' }}>
+
+  {/* A · 标题块 20–120 */}
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+    <Box style={{ width: 5, height: 26, background: '#A8351A' }} />
+    <Text style={{ fontFamily: 'Songti SC', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>
+      家族群的那条消息
+    </Text>
+  </Box>
+
+  {/* B · 内容区 120–660 */}
+  <Box style={{ height: 540, flexDirection: 'row', gap: 40, paddingTop: 18 }}>
+
+    {/* 左 58% · L1 手机界面示意 */}
+    <Box style={{ width: 660, background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 4, padding: '20px 22px', justifyContent: 'center' }}>
+      <svg width={616} height={438} viewBox='0 0 616 438'>
+        <rect x='6' y='6' width='604' height='426' rx='16' fill='#FFFFFF' stroke='#1A1A1A' strokeWidth='2' />
+        <rect x='6' y='6' width='604' height='56' rx='16' fill='#1A1A1A' />
+        <rect x='6' y='40' width='604' height='22' fill='#1A1A1A' />
+        <text x='34' y='42' fontFamily='PingFang SC' fontSize='19' fill='#F4F1E9'>家族群（4）</text>
+        <text x='540' y='42' fontFamily='PingFang SC' fontSize='15' fill='#F4F1E9' opacity='0.6'>···</text>
+
+        <rect x='30' y='86' width='300' height='54' rx='10' fill='#F1EEE6' />
+        <text x='50' y='118' fontFamily='PingFang SC' fontSize='16' fill='#3F4A55'>妈：今天降温，多穿点</text>
+
+        <rect x='286' y='156' width='300' height='54' rx='10' fill='#E8E4D9' />
+        <text x='306' y='188' fontFamily='PingFang SC' fontSize='16' fill='#3F4A55'>我：好嘞</text>
+
+        {/* 传言气泡 —— 朱砂高亮 */}
+        <rect x='30' y='226' width='470' height='92' rx='10' fill='rgba(168,53,26,0.08)' stroke='#A8351A' strokeWidth='2.5' />
+        <text x='50' y='258' fontFamily='PingFang SC' fontSize='17' fill='#1A1A1A'>二舅：空腹吃荔枝会得荔枝病，</text>
+        <text x='50' y='286' fontFamily='PingFang SC' fontSize='17' fill='#1A1A1A'>严重的会致死，千万别给孩子吃</text>
+        <text x='50' y='308' fontFamily='PingFang SC' fontSize='13' fill='#A8351A'>转发自「养生每日必读」· 无署名</text>
+
+        <rect x='30' y='340' width='556' height='44' rx='10' fill='#F7F5EF' stroke='rgba(63,74,85,0.25)' strokeWidth='1.5' />
+        <text x='50' y='368' fontFamily='PingFang SC' fontSize='15' fill='#3F4A55' opacity='0.55'>这条是真的吗？</text>
+      </svg>
+    </Box>
+
+    {/* 右 42% · 三段痛点 */}
+    <Box style={{ flex: 1, justifyContent: 'center', gap: 26 }}>
+
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 26, fontWeight: '600', color: '#1A1A1A', lineHeight: 1.5 }}>
+        每天早上<br />它都在群里等你
+      </Text>
+
+      <Box style={{ height: 2, background: 'rgba(63,74,85,0.30)' }} />
+
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 20, color: '#3F4A55', lineHeight: 1.7 }}>
+        传言跑得比真相快，而且它不问出处、不写日期、不告诉你前提。
+      </Text>
+
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 20, color: '#3F4A55', lineHeight: 1.7 }}>
+        模型的答案来自训练时的记忆，不是今天的网络；传言的真假，恰恰只写在今天的网络上。
+      </Text>
+
+      <Box style={{ background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderLeft: '4px solid #A8351A', padding: '16px 18px', marginTop: 4 }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 20, color: '#1A1A1A', lineHeight: 1.6 }}>
+          所以「去搜」不是加分项，<span style={{ color: '#A8351A', fontWeight: 'bold' }}>是唯一正确的做法</span>。
+        </Text>
+      </Box>
+
+    </Box>
+
+  </Box>
+
+  {/* C · 页脚条 660–700 */}
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', opacity: 0.6 }}>求真社 · Verifact</Text>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55' }}>02 / 12</Text>
+  </Box>
+
+</Slide>

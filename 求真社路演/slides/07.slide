@@ -1,0 +1,75 @@
+<Slide style={{ background: '#F4F1E9', padding: '20px 72px' }}>
+
+  {/* A · 标题块 */}
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+    <Box style={{ width: 5, height: 26, background: '#A8351A' }} />
+    <Text style={{ fontFamily: 'Songti SC', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>
+      一键甩回群里
+    </Text>
+  </Box>
+
+  {/* B · 全幅图 + 骑线文字 */}
+  <Box style={{ height: 540, flexDirection: 'row', gap: 40, paddingTop: 12 }}>
+
+    {/* 左 60% · L1 反驳卡片实物 */}
+    <Box style={{ width: 660, alignItems: 'center', justifyContent: 'center' }}>
+      <svg width={430} height={516} viewBox='0 0 540 648'>
+        <rect x='4' y='4' width='532' height='640' rx='6' fill='#F4F1E9' stroke='#1A1A1A' strokeWidth='3' />
+        <rect x='28' y='28' width='484' height='592' fill='#FDFCF7' stroke='#1A1A1A' strokeWidth='2' />
+
+        <text x='56' y='86' fontFamily='Songti SC' fontSize='30' fontWeight='bold' fill='#1A1A1A'>求真社 · 查证结果</text>
+        <text x='58' y='112' fontFamily='PingFang SC' fontSize='14' fill='#3F4A55' letterSpacing='2'>VERIFACT / VF-1024-0001</text>
+        <line x1='56' y1='130' x2='484' y2='130' stroke='#1A1A1A' strokeWidth='2' />
+
+        <text x='56' y='168' fontFamily='PingFang SC' fontSize='15' fill='#A8351A'>原话</text>
+        <text x='56' y='204' fontFamily='Songti SC' fontSize='23' fill='#1A1A1A'>空腹吃荔枝会得荔枝病，</text>
+        <text x='56' y='236' fontFamily='Songti SC' fontSize='23' fill='#1A1A1A'>严重的会致死</text>
+
+        <text x='56' y='286' fontFamily='PingFang SC' fontSize='15' fill='#A8351A'>结论</text>
+        <text x='56' y='344' fontFamily='Songti SC' fontSize='52' fontWeight='bold' fill='#B6690E'>部分属实</text>
+
+        <text x='56' y='394' fontFamily='PingFang SC' fontSize='16' fill='#3F4A55'>确实有荔枝病，但被夸大了：</text>
+        <text x='56' y='422' fontFamily='PingFang SC' fontSize='16' fill='#3F4A55'>需要空腹 + 大量 + 未成熟三个条件叠加，</text>
+        <text x='56' y='450' fontFamily='PingFang SC' fontSize='16' fill='#3F4A55'>儿童风险最高。吃几颗致死没有依据。</text>
+
+        {/* 卡片上的印章 */}
+        <circle cx='410' cy='520' r='72' fill='rgba(168,53,26,0.07)' stroke='#A8351A' strokeWidth='5' />
+        <circle cx='410' cy='520' r='62' fill='none' stroke='#A8351A' strokeWidth='2' />
+        <text x='410' y='510' textAnchor='middle' fontFamily='Songti SC' fontSize='34' fontWeight='bold' fill='#A8351A'>部分</text>
+        <text x='410' y='550' textAnchor='middle' fontFamily='Songti SC' fontSize='34' fontWeight='bold' fill='#A8351A'>属实</text>
+
+        <text x='56' y='596' fontFamily='PingFang SC' fontSize='12' fill='#3F4A55'>证据与来源见卷宗 · 每条结论均可点开原文核对</text>
+      </svg>
+    </Box>
+
+    {/* 右 · 骑线文字 */}
+    <Box style={{ flex: 1, justifyContent: 'center', gap: 24 }}>
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 32, fontWeight: '600', color: '#1A1A1A', lineHeight: 1.5 }}>
+        查完了<br />还得说出去
+      </Text>
+      <Box style={{ height: 2, background: 'rgba(63,74,85,0.30)' }} />
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 19, color: '#3F4A55', lineHeight: 1.7 }}>
+        真相查到了，但你要在群里跟二舅吵一百句吗？不必。
+      </Text>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 19, color: '#3F4A55', lineHeight: 1.7 }}>
+        一键生成 1080×1440 的反驳卡片：原话、结论大字、一句人话、右下角印章。可存图，也可复制文字版。
+      </Text>
+      <Box style={{ background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderLeft: '4px solid #A8351A', padding: '16px 18px' }}>
+        <Text style={{ fontFamily: 'Songti SC', fontSize: 22, color: '#A8351A', lineHeight: 1.5 }}>
+          比吵一百句管用。
+        </Text>
+      </Box>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', lineHeight: 1.7 }}>
+        这也是作品会被继续使用、被转发的理由——场景价值不靠说，靠它真的被甩进了某个群里。
+      </Text>
+    </Box>
+
+  </Box>
+
+  {/* C · 页脚 */}
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', opacity: 0.6 }}>求真社 · Verifact</Text>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55' }}>07 / 12</Text>
+  </Box>
+
+</Slide>

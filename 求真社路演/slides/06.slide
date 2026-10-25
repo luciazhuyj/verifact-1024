@@ -1,0 +1,98 @@
+<Slide style={{ background: '#F4F1E9', padding: '20px 72px' }}>
+
+  {/* A · 标题块 */}
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+    <Box style={{ width: 5, height: 26, background: '#A8351A' }} />
+    <Text style={{ fontFamily: 'Songti SC', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>
+      三条真实查证
+    </Text>
+  </Box>
+
+  {/* B · 上大图 + 下方卡片 */}
+  <Box style={{ height: 540, paddingTop: 12, gap: 18 }}>
+
+    {/* 上 · L1 卷宗三栏 */}
+    <Box style={{ height: 300, background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 4, padding: '16px 18px' }}>
+      <svg width={1096} height={268} viewBox='0 0 1096 268'>
+
+        {/* 栏 1 */}
+        <rect x='8' y='8' width='352' height='252' rx='3' fill='#FFFFFF' stroke='rgba(26,26,26,0.14)' strokeWidth='1.5' />
+        <rect x='8' y='8' width='352' height='4' fill='#B6690E' />
+        <text x='28' y='40' fontFamily='PingFang SC' fontSize='12' fill='#3F4A55' letterSpacing='2'>VF-1024-0001</text>
+        <text x='28' y='70' fontFamily='Songti SC' fontSize='17' fill='#1A1A1A'>空腹吃荔枝会得荔枝病</text>
+        <text x='28' y='94' fontFamily='Songti SC' fontSize='17' fill='#1A1A1A'>严重的会致死</text>
+        <text x='28' y='124' fontFamily='PingFang SC' fontSize='13' fill='#3F4A55'>3 条线索 · 7 条来源</text>
+        <circle cx='308' cy='196' r='46' fill='rgba(182,105,14,0.10)' stroke='#B6690E' strokeWidth='4' />
+        <circle cx='308' cy='196' r='39' fill='none' stroke='#B6690E' strokeWidth='1.5' />
+        <text x='308' y='190' textAnchor='middle' fontFamily='Songti SC' fontSize='22' fontWeight='bold' fill='#B6690E'>部分</text>
+        <text x='308' y='216' textAnchor='middle' fontFamily='Songti SC' fontSize='22' fontWeight='bold' fill='#B6690E'>属实</text>
+
+        {/* 栏 2 */}
+        <rect x='372' y='8' width='352' height='252' rx='3' fill='#FFFFFF' stroke='rgba(26,26,26,0.14)' strokeWidth='1.5' />
+        <rect x='372' y='8' width='352' height='4' fill='#A8351A' />
+        <text x='392' y='40' fontFamily='PingFang SC' fontSize='12' fill='#3F4A55' letterSpacing='2'>VF-1024-0002</text>
+        <text x='392' y='70' fontFamily='Songti SC' fontSize='17' fill='#1A1A1A'>微波炉加热的食物</text>
+        <text x='392' y='94' fontFamily='Songti SC' fontSize='17' fill='#1A1A1A'>会致癌</text>
+        <text x='392' y='124' fontFamily='PingFang SC' fontSize='13' fill='#3F4A55'>3 条线索 · 7 条来源</text>
+        <circle cx='672' cy='196' r='46' fill='rgba(168,53,26,0.08)' stroke='#A8351A' strokeWidth='4' />
+        <circle cx='672' cy='196' r='39' fill='none' stroke='#A8351A' strokeWidth='1.5' />
+        <text x='672' y='206' textAnchor='middle' fontFamily='Songti SC' fontSize='26' fontWeight='bold' fill='#A8351A'>不实</text>
+
+        {/* 栏 3 · 视觉最重 */}
+        <rect x='736' y='8' width='352' height='252' rx='3' fill='#FFFFFF' stroke='#A8351A' strokeWidth='2.5' />
+        <rect x='736' y='8' width='352' height='4' fill='#A8351A' />
+        <text x='756' y='40' fontFamily='PingFang SC' fontSize='12' fill='#A8351A' letterSpacing='2'>VF-1024-0003 · 重点</text>
+        <text x='756' y='70' fontFamily='Songti SC' fontSize='17' fill='#1A1A1A'>每天一杯芹菜汁</text>
+        <text x='756' y='94' fontFamily='Songti SC' fontSize='17' fill='#1A1A1A'>能把血压降到正常</text>
+        <text x='756' y='124' fontFamily='PingFang SC' fontSize='13' fill='#3F4A55'>3 条线索 · 5 条来源</text>
+        <circle cx='1036' cy='196' r='46' fill='rgba(63,74,85,0.10)' stroke='#3F4A55' strokeWidth='4' />
+        <circle cx='1036' cy='196' r='39' fill='none' stroke='#3F4A55' strokeWidth='1.5' />
+        <text x='1036' y='190' textAnchor='middle' fontFamily='Songti SC' fontSize='20' fontWeight='bold' fill='#3F4A55'>查无</text>
+        <text x='1036' y='216' textAnchor='middle' fontFamily='Songti SC' fontSize='20' fontWeight='bold' fill='#3F4A55'>实据</text>
+      </svg>
+    </Box>
+
+    {/* 下 · 三段说明 */}
+    <Box style={{ flexDirection: 'row', gap: 16, height: 200 }}>
+
+      <Box style={{ flex: 1, background: '#FFFFFF', border: '1px solid rgba(26,26,26,0.14)', borderTop: '3px solid #B6690E', borderRadius: 3, padding: '14px 16px', justifyContent: 'space-between' }}>
+        <Box>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 22, fontWeight: '600', color: '#1A1A1A' }}>荔枝病：部分属实</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', lineHeight: 1.65, marginTop: 10 }}>
+            病是真的，儿童高危也是真的；但"吃几颗就致死"删掉了空腹、大量、未成熟三个前提，判不实。
+          </Text>
+        </Box>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 13, color: '#B6690E', marginTop: 'auto' }}>看点：同一句话分开盖章</Text>
+      </Box>
+
+      <Box style={{ flex: 1, background: '#FFFFFF', border: '1px solid rgba(26,26,26,0.14)', borderTop: '3px solid #A8351A', borderRadius: 3, padding: '14px 16px', justifyContent: 'space-between' }}>
+        <Box>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 22, fontWeight: '600', color: '#1A1A1A' }}>微波炉：不实</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', lineHeight: 1.65, marginTop: 10 }}>
+            微波是非电离辐射，不产生致癌物。但第三条"用错塑料容器有风险"我们判了属实——不一律否定才叫核查。
+          </Text>
+        </Box>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 13, color: '#A8351A', marginTop: 'auto' }}>看点：该肯定的照常肯定</Text>
+      </Box>
+
+      <Box style={{ flex: 1, background: '#FFFFFF', border: '2px solid #A8351A', borderRadius: 3, padding: '14px 16px', justifyContent: 'space-between' }}>
+        <Box>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 22, fontWeight: '600', color: '#A8351A' }}>芹菜汁：查无实据</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', lineHeight: 1.65, marginTop: 10 }}>
+            芹菜素确有药理研究，但只有动物实验；"降到正常水平"这种强疗效断言，没有找到可靠的临床证据。
+          </Text>
+        </Box>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 13, color: '#A8351A', fontWeight: 'bold', marginTop: 'auto' }}>杀手锏：专门证明"敢说不知道"</Text>
+      </Box>
+
+    </Box>
+
+  </Box>
+
+  {/* C · 页脚 */}
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', opacity: 0.6 }}>求真社 · Verifact</Text>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55' }}>06 / 12</Text>
+  </Box>
+
+</Slide>

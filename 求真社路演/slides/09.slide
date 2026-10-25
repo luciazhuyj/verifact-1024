@@ -1,0 +1,40 @@
+<Slide style={{ background: '#F4F1E9', padding: '20px 72px', justifyContent: 'center', alignItems: 'center' }}>
+
+  {/* 巨型锚点数字 */}
+  <Text style={{ fontFamily: 'Songti SC', fontSize: 132, fontWeight: 'bold', color: '#A8351A', lineHeight: 1.0, textAlign: 'center' }}>
+    100%
+  </Text>
+
+  <Box style={{ width: 120, height: 5, background: '#1A1A1A', marginTop: 34, marginBottom: 30, alignSelf: 'center' }} />
+
+  <Text style={{ fontFamily: 'Songti SC', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A', textAlign: 'center', lineHeight: 1.5 }}>
+    结论 100% 来自元宝搜索
+  </Text>
+
+  <Text style={{ fontFamily: 'PingFang SC', fontSize: 21, color: '#3F4A55', textAlign: 'center', lineHeight: 1.8, marginTop: 24 }}>
+    没有检索，就没有结论。<br />
+    未接入搜索凭据时，系统只演示流程，拒绝对任何新输入编造答案 ——
+  </Text>
+
+  <Text style={{ fontFamily: 'Songti SC', fontSize: 24, color: '#A8351A', textAlign: 'center', lineHeight: 1.7, marginTop: 18 }}>
+    把「少点幻觉，多点搜索」做成了产品行为本身。
+  </Text>
+
+  <Box style={{ flexDirection: 'row', gap: 14, marginTop: 40, justifyContent: 'center' }}>
+    <Box style={{ background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '12px 20px' }}>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55' }}>去掉元宝搜索 → 转不起来</Text>
+    </Box>
+    <Box style={{ background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '12px 20px' }}>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55' }}>来源全部可点开原文</Text>
+    </Box>
+    <Box style={{ background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '12px 20px' }}>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55' }}>查不到 → 明说不知道</Text>
+    </Box>
+  </Box>
+
+  <Box style={{ height: 40, width: '100%', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 56 }}>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', opacity: 0.6 }}>求真社 · Verifact</Text>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55' }}>09 / 12</Text>
+  </Box>
+
+</Slide>

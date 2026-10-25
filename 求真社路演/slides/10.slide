@@ -1,0 +1,81 @@
+<Slide style={{ background: '#F4F1E9', padding: '20px 72px' }}>
+
+  {/* A · 标题块 */}
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+    <Box style={{ width: 5, height: 26, background: '#A8351A' }} />
+    <Text style={{ fontFamily: 'Songti SC', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>
+      评委看什么，我们就做什么
+    </Text>
+  </Box>
+
+  {/* B · 非对称双栏 60:40 */}
+  <Box style={{ height: 540, flexDirection: 'row', gap: 36, paddingTop: 14 }}>
+
+    {/* 左 60% · 四维度表 */}
+    <Box style={{ width: 660, background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 4, padding: '18px 20px', gap: 12 }}>
+
+      <Box style={{ flexDirection: 'row', paddingBottom: 10, borderBottom: '2px solid #1A1A1A' }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#3F4A55', width: 150, letterSpacing: 1 }}>维度</Text>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#3F4A55', width: 80, letterSpacing: 1 }}>权重</Text>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#3F4A55', flex: 1, letterSpacing: 1 }}>我们怎么拿这一分</Text>
+      </Box>
+
+      <Box style={{ flexDirection: 'row', paddingTop: 8, paddingBottom: 8, borderBottom: '1px dashed rgba(63,74,85,0.30)' }}>
+        <Text style={{ fontFamily: 'Songti SC', fontSize: 20, fontWeight: '600', color: '#1A1A1A', width: 150 }}>完成度</Text>
+        <Text style={{ fontFamily: 'Songti SC', fontSize: 26, fontWeight: 'bold', color: '#A8351A', width: 80 }}>30%</Text>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', flex: 1, lineHeight: 1.6 }}>
+          双击即开、三种入口、四档结论、全部来源可点开、卡片可存图、报告可导出
+        </Text>
+      </Box>
+
+      <Box style={{ flexDirection: 'row', paddingTop: 8, paddingBottom: 8, borderBottom: '1px dashed rgba(63,74,85,0.30)' }}>
+        <Text style={{ fontFamily: 'Songti SC', fontSize: 20, fontWeight: '600', color: '#1A1A1A', width: 150 }}>创意</Text>
+        <Text style={{ fontFamily: 'Songti SC', fontSize: 26, fontWeight: 'bold', color: '#A8351A', width: 80 }}>25%</Text>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', flex: 1, lineHeight: 1.6 }}>
+          侦探事务所叙事 + 朱红落章 + 断言拆解（真假分开盖）+ 查无实据这一档
+        </Text>
+      </Box>
+
+      <Box style={{ flexDirection: 'row', paddingTop: 8, paddingBottom: 8, borderBottom: '1px dashed rgba(63,74,85,0.30)' }}>
+        <Text style={{ fontFamily: 'Songti SC', fontSize: 20, fontWeight: '600', color: '#1A1A1A', width: 150 }}>场景价值</Text>
+        <Text style={{ fontFamily: 'Songti SC', fontSize: 26, fontWeight: 'bold', color: '#A8351A', width: 80 }}>25%</Text>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', flex: 1, lineHeight: 1.6 }}>
+          回家族群，几乎人人有此痛点；反驳卡片直接可传播，盯梢名单形成日常使用
+        </Text>
+      </Box>
+
+      <Box style={{ flexDirection: 'row', paddingTop: 8 }}>
+        <Text style={{ fontFamily: 'Songti SC', fontSize: 20, fontWeight: '600', color: '#1A1A1A', width: 150 }}>展示</Text>
+        <Text style={{ fontFamily: 'Songti SC', fontSize: 26, fontWeight: 'bold', color: '#A8351A', width: 80 }}>20%</Text>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', flex: 1, lineHeight: 1.6 }}>
+          打字机 + 扫描线 + 落章回弹，三分钟讲得完，大屏看得清
+        </Text>
+      </Box>
+
+    </Box>
+
+    {/* 右 40% */}
+    <Box style={{ flex: 1, justifyContent: 'center', gap: 22 }}>
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 28, fontWeight: '600', color: '#1A1A1A', lineHeight: 1.45 }}>
+        展示占 20%<br />所以视觉不是装饰
+      </Text>
+      <Box style={{ height: 2, background: 'rgba(63,74,85,0.30)' }} />
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 18, color: '#3F4A55', lineHeight: 1.7 }}>
+        两个 25% 的分项——创意和场景价值——都不是靠功能堆出来的，靠的是"这句话到底该怎么判"这件事本身被重新设计过。
+      </Text>
+      <Box style={{ background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderLeft: '4px solid #A8351A', padding: '14px 16px' }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#1A1A1A', lineHeight: 1.6 }}>
+          每一分都对应到页面上一个能点开、能存图、能导出的具体动作。
+        </Text>
+      </Box>
+    </Box>
+
+  </Box>
+
+  {/* C · 页脚 */}
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', opacity: 0.6 }}>求真社 · Verifact</Text>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55' }}>10 / 12</Text>
+  </Box>
+
+</Slide>

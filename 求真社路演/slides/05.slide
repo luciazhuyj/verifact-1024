@@ -1,0 +1,105 @@
+<Slide style={{ background: '#F4F1E9', padding: '20px 72px' }}>
+
+  {/* A · 标题块 */}
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+    <Box style={{ width: 5, height: 26, background: '#A8351A' }} />
+    <Text style={{ fontFamily: 'Songti SC', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>
+      主动去找反方
+    </Text>
+  </Box>
+
+  {/* B · 左标题 + 右内容 */}
+  <Box style={{ height: 540, flexDirection: 'row', gap: 36, paddingTop: 14 }}>
+
+    {/* 左 38% 窄标题栏 */}
+    <Box style={{ width: 400, justifyContent: 'center', gap: 20 }}>
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 30, fontWeight: '600', color: '#1A1A1A', lineHeight: 1.45 }}>
+        只搜正向<br />会越搜越信
+      </Text>
+      <Box style={{ height: 2, background: 'rgba(63,74,85,0.30)' }} />
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 18, color: '#3F4A55', lineHeight: 1.7 }}>
+        拿原话去搜，搜到的多半是转述同一个说法的页面——它们互相印证，却都不是证据。
+      </Text>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 18, color: '#3F4A55', lineHeight: 1.7 }}>
+        所以每条线索强制跑四组检索式，其中一组专门去<span style={{ color: '#A8351A', fontWeight: 'bold' }}>找反方</span>。
+      </Text>
+      <Box style={{ background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderLeft: '4px solid #A8351A', padding: '14px 16px' }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#1A1A1A', lineHeight: 1.6 }}>
+          反方查不到，才叫核验通过；查得到，就按证据改结论。
+        </Text>
+      </Box>
+    </Box>
+
+    {/* 右 62% 检索式 + 分级 */}
+    <Box style={{ flex: 1, gap: 14, justifyContent: 'center' }}>
+
+      {/* 检索式条 1 */}
+      <Box style={{ flexDirection: 'row', alignItems: 'center', background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '13px 16px', gap: 14 }}>
+        <Box style={{ width: 4, height: 34, background: '#3F4A55' }} />
+        <Box style={{ flex: 1 }}>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 13, color: '#3F4A55', letterSpacing: 1 }}>① 正向求证</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#1A1A1A', marginTop: 3 }}>空腹吃荔枝会得荔枝病，严重的会致死</Text>
+        </Box>
+      </Box>
+
+      {/* 检索式条 2 */}
+      <Box style={{ flexDirection: 'row', alignItems: 'center', background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '13px 16px', gap: 14 }}>
+        <Box style={{ width: 4, height: 34, background: '#3F4A55' }} />
+        <Box style={{ flex: 1 }}>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 13, color: '#3F4A55', letterSpacing: 1 }}>② 质疑式反问</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#1A1A1A', marginTop: 3 }}>空腹吃荔枝会得荔枝病，是真的吗</Text>
+        </Box>
+      </Box>
+
+      {/* 检索式条 3 · 朱砂高亮 */}
+      <Box style={{ flexDirection: 'row', alignItems: 'center', background: 'rgba(168,53,26,0.07)', border: '2px solid #A8351A', borderRadius: 3, padding: '13px 16px', gap: 14 }}>
+        <Box style={{ width: 4, height: 34, background: '#A8351A' }} />
+        <Box style={{ flex: 1 }}>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 13, color: '#A8351A', letterSpacing: 1, fontWeight: 'bold' }}>③ 反向举证</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#1A1A1A', marginTop: 3 }}>空腹吃荔枝 荔枝病 辟谣 谣言</Text>
+        </Box>
+      </Box>
+
+      {/* 检索式条 4 */}
+      <Box style={{ flexDirection: 'row', alignItems: 'center', background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '13px 16px', gap: 14 }}>
+        <Box style={{ width: 4, height: 34, background: '#3F4A55' }} />
+        <Box style={{ flex: 1 }}>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 13, color: '#3F4A55', letterSpacing: 1 }}>④ 权威溯源</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#1A1A1A', marginTop: 3 }}>荔枝病 官方 权威机构 说法</Text>
+        </Box>
+      </Box>
+
+      {/* 来源分级 */}
+      <Box style={{ background: '#FFFFFF', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '14px 16px', marginTop: 4 }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 13, color: '#3F4A55', letterSpacing: 2, marginBottom: 10 }}>来源按可信度分级 · 交叉比对的依据</Text>
+        <Box style={{ flexDirection: 'row', gap: 10 }}>
+          <Box style={{ flex: 1, background: 'rgba(46,107,79,0.10)', padding: '8px 6px', alignItems: 'center' }}>
+            <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#2E6B4F', fontWeight: 'bold' }}>T1 官方机构</Text>
+            <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', marginTop: 2 }}>疾控 / 卫健委</Text>
+          </Box>
+          <Box style={{ flex: 1, background: 'rgba(63,74,85,0.10)', padding: '8px 6px', alignItems: 'center' }}>
+            <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#3F4A55', fontWeight: 'bold' }}>T2 权威媒体</Text>
+            <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', marginTop: 2 }}>学术 / 主流媒体</Text>
+          </Box>
+          <Box style={{ flex: 1, background: 'rgba(182,105,14,0.12)', padding: '8px 6px', alignItems: 'center' }}>
+            <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#B6690E', fontWeight: 'bold' }}>T3 行业专业</Text>
+            <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', marginTop: 2 }}>研究机构 / 专业站</Text>
+          </Box>
+          <Box style={{ flex: 1, background: 'rgba(168,53,26,0.08)', padding: '8px 6px', alignItems: 'center' }}>
+            <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#A8351A', fontWeight: 'bold' }}>T4 自媒体</Text>
+            <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', marginTop: 2 }}>孤证不作定论</Text>
+          </Box>
+        </Box>
+      </Box>
+
+    </Box>
+
+  </Box>
+
+  {/* C · 页脚 */}
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', opacity: 0.6 }}>求真社 · Verifact</Text>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55' }}>05 / 12</Text>
+  </Box>
+
+</Slide>

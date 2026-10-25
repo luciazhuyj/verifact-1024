@@ -1,0 +1,77 @@
+<Slide style={{ background: '#F4F1E9', padding: '20px 72px' }}>
+
+  {/* A · 标题块 */}
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+    <Box style={{ width: 5, height: 26, background: '#A8351A' }} />
+    <Text style={{ fontFamily: 'Songti SC', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>
+      现在就能打开
+    </Text>
+  </Box>
+
+  {/* B · 左标题 + 右内容 */}
+  <Box style={{ height: 540, flexDirection: 'row', gap: 36, paddingTop: 14 }}>
+
+    {/* 左 38% */}
+    <Box style={{ width: 400, justifyContent: 'center', gap: 20 }}>
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 30, fontWeight: '600', color: '#1A1A1A', lineHeight: 1.45 }}>
+        已经上线<br />点开就能玩
+      </Text>
+      <Box style={{ height: 2, background: 'rgba(63,74,85,0.30)' }} />
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 18, color: '#3F4A55', lineHeight: 1.7 }}>
+        单文件网页，零依赖，不挑设备，断网也能跑完整流程。
+      </Text>
+      <Box style={{ background: '#1A1A1A', borderRadius: 3, padding: '16px 18px' }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 13, color: '#F4F1E9', opacity: 0.6, letterSpacing: 1 }}>线上地址</Text>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#F4F1E9', marginTop: 8, lineHeight: 1.5 }}>
+          luciazhuyj.github.io/verifact-1024
+        </Text>
+      </Box>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 15, color: '#3F4A55', lineHeight: 1.7 }}>
+        仓库：github.com/luciazhuyj/verifact-1024
+      </Text>
+    </Box>
+
+    {/* 右 62% · 三个入口 */}
+    <Box style={{ flex: 1, gap: 16, justifyContent: 'center' }}>
+
+      <Box style={{ flexDirection: 'row', background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '16px 18px', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 8, height: 52, background: '#1A1A1A' }} />
+        <Box style={{ flex: 1 }}>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 22, fontWeight: '600', color: '#1A1A1A' }}>粘贴一句话</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', lineHeight: 1.6, marginTop: 5 }}>
+            把任何让你犯嘀咕的话贴进去，看它被拆成几条、每条盖什么章。
+          </Text>
+        </Box>
+      </Box>
+
+      <Box style={{ flexDirection: 'row', background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 3, padding: '16px 18px', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 8, height: 52, background: '#1A1A1A' }} />
+        <Box style={{ flex: 1 }}>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 22, fontWeight: '600', color: '#1A1A1A' }}>丢一张截图</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', lineHeight: 1.6, marginTop: 5 }}>
+            家族群那张截图直接上传，先认出说了什么，再逐句去查。
+          </Text>
+        </Box>
+      </Box>
+
+      <Box style={{ flexDirection: 'row', background: 'rgba(168,53,26,0.07)', border: '2px solid #A8351A', borderRadius: 3, padding: '16px 18px', gap: 16, alignItems: 'center' }}>
+        <Box style={{ width: 8, height: 52, background: '#A8351A' }} />
+        <Box style={{ flex: 1 }}>
+          <Text style={{ fontFamily: 'Songti SC', fontSize: 22, fontWeight: '600', color: '#A8351A' }}>建议从第三条开始</Text>
+          <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', lineHeight: 1.6, marginTop: 5 }}>
+            「芹菜汁能把血压降到正常」—— 它会走到「查无实据」那一档，那一帧最能说明这个作品是什么。
+          </Text>
+        </Box>
+      </Box>
+
+    </Box>
+
+  </Box>
+
+  {/* C · 页脚 */}
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', opacity: 0.6 }}>求真社 · Verifact</Text>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55' }}>11 / 12</Text>
+  </Box>
+
+</Slide>

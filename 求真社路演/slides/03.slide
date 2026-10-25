@@ -1,0 +1,91 @@
+<Slide style={{ background: '#F4F1E9', padding: '20px 72px' }}>
+
+  {/* A · 标题块 */}
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+    <Box style={{ width: 5, height: 26, background: '#A8351A' }} />
+    <Text style={{ fontFamily: 'Songti SC', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>
+      不整段下结论，拆开查
+    </Text>
+  </Box>
+
+  {/* B · 内容区 非对称双栏 65:35 */}
+  <Box style={{ height: 540, flexDirection: 'row', gap: 36, paddingTop: 14 }}>
+
+    {/* 左 65% · L1 拆解流程图 + 三印章 */}
+    <Box style={{ width: 700, background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 4, padding: '18px 20px' }}>
+      <svg width={660} height={498} viewBox='0 0 660 498'>
+
+        {/* 顶部：原话 */}
+        <rect x='20' y='18' width='620' height='62' rx='4' fill='#F4F1E9' stroke='#1A1A1A' strokeWidth='1.5' />
+        <text x='40' y='44' fontFamily='PingFang SC' fontSize='13' fill='#3F4A55' letterSpacing='2'>原话 · 来自家族群</text>
+        <text x='40' y='68' fontFamily='Songti SC' fontSize='20' fill='#1A1A1A'>空腹吃荔枝会得荔枝病，严重的会致死</text>
+
+        {/* 拆解箭头 */}
+        <line x1='330' y1='80' x2='330' y2='112' stroke='#3F4A55' strokeWidth='2' />
+        <path d='M326 106 L330 114 L334 106' fill='none' stroke='#3F4A55' strokeWidth='2' />
+        <text x='344' y='104' fontFamily='PingFang SC' fontSize='13' fill='#3F4A55' letterSpacing='1'>拆成 3 条可独立验证的线索</text>
+
+        {/* 线索 1 */}
+        <rect x='20' y='124' width='620' height='96' rx='4' fill='#FFFFFF' stroke='rgba(26,26,26,0.14)' strokeWidth='1.5' />
+        <rect x='20' y='124' width='4' height='96' fill='#3F4A55' />
+        <text x='42' y='158' fontFamily='PingFang SC' fontSize='13' fill='#3F4A55'>线索 01</text>
+        <text x='42' y='186' fontFamily='Songti SC' fontSize='19' fill='#1A1A1A'>存在「荔枝病」这种急性低血糖症</text>
+        <text x='42' y='208' fontFamily='PingFang SC' fontSize='14' fill='#3F4A55'>疾控 / 柳叶刀 / 科普中国 三方一致</text>
+        <circle cx='588' cy='172' r='38' fill='rgba(46,107,79,0.08)' stroke='#2E6B4F' strokeWidth='4' />
+        <circle cx='588' cy='172' r='32' fill='none' stroke='#2E6B4F' strokeWidth='1.5' />
+        <text x='588' y='182' textAnchor='middle' fontFamily='Songti SC' fontSize='26' fontWeight='bold' fill='#2E6B4F'>属实</text>
+
+        {/* 线索 2 */}
+        <rect x='20' y='236' width='620' height='96' rx='4' fill='#FFFFFF' stroke='rgba(26,26,26,0.14)' strokeWidth='1.5' />
+        <rect x='20' y='236' width='4' height='96' fill='#3F4A55' />
+        <text x='42' y='270' fontFamily='PingFang SC' fontSize='13' fill='#3F4A55'>线索 02</text>
+        <text x='42' y='298' fontFamily='Songti SC' fontSize='19' fill='#1A1A1A'>儿童是高危人群</text>
+        <text x='42' y='320' fontFamily='PingFang SC' fontSize='14' fill='#3F4A55'>病例集中在 2—10 岁，证据一致</text>
+        <circle cx='588' cy='284' r='38' fill='rgba(46,107,79,0.08)' stroke='#2E6B4F' strokeWidth='4' />
+        <circle cx='588' cy='284' r='32' fill='none' stroke='#2E6B4F' strokeWidth='1.5' />
+        <text x='588' y='294' textAnchor='middle' fontFamily='Songti SC' fontSize='26' fontWeight='bold' fill='#2E6B4F'>属实</text>
+
+        {/* 线索 3 */}
+        <rect x='20' y='348' width='620' height='96' rx='4' fill='#FFFFFF' stroke='rgba(26,26,26,0.14)' strokeWidth='1.5' />
+        <rect x='20' y='348' width='4' height='96' fill='#A8351A' />
+        <text x='42' y='382' fontFamily='PingFang SC' fontSize='13' fill='#3F4A55'>线索 03</text>
+        <text x='42' y='410' fontFamily='Songti SC' fontSize='19' fill='#1A1A1A'>吃几颗荔枝就会致死</text>
+        <text x='42' y='432' fontFamily='PingFang SC' fontSize='14' fill='#3F4A55'>删掉了「空腹 + 大量 + 未成熟」三个前提</text>
+        <circle cx='588' cy='396' r='38' fill='rgba(168,53,26,0.08)' stroke='#A8351A' strokeWidth='4' />
+        <circle cx='588' cy='396' r='32' fill='none' stroke='#A8351A' strokeWidth='1.5' />
+        <text x='588' y='406' textAnchor='middle' fontFamily='Songti SC' fontSize='26' fontWeight='bold' fill='#A8351A'>不实</text>
+
+        {/* 总章 */}
+        <rect x='20' y='460' width='620' height='26' rx='3' fill='rgba(182,105,14,0.10)' />
+        <text x='40' y='479' fontFamily='PingFang SC' fontSize='14' fill='#B6690E'>总章：部分属实 · 夸大 —— 判断来自三条线索的加权，不是对整句话的印象</text>
+      </svg>
+    </Box>
+
+    {/* 右 35% · 说明 */}
+    <Box style={{ flex: 1, justifyContent: 'center', gap: 22 }}>
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 27, fontWeight: '600', color: '#1A1A1A', lineHeight: 1.45 }}>
+        同一句话<br />真的和假的<br />分开盖章
+      </Text>
+      <Box style={{ height: 2, background: 'rgba(63,74,85,0.30)' }} />
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 19, color: '#3F4A55', lineHeight: 1.7 }}>
+        整段回答"真的假的"，必然误判——这句话里确实有真的部分。
+      </Text>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 19, color: '#3F4A55', lineHeight: 1.7 }}>
+        先拆成可以单独查的断言，再逐条去搜、逐条盖章，结论才站得住。
+      </Text>
+      <Box style={{ background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderLeft: '4px solid #A8351A', padding: '14px 16px' }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 18, color: '#1A1A1A', lineHeight: 1.6 }}>
+          这是本作品与普通 AI 问答的<span style={{ color: '#A8351A', fontWeight: 'bold' }}>分水岭</span>。
+        </Text>
+      </Box>
+    </Box>
+
+  </Box>
+
+  {/* C · 页脚 */}
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', opacity: 0.6 }}>求真社 · Verifact</Text>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55' }}>03 / 12</Text>
+  </Box>
+
+</Slide>

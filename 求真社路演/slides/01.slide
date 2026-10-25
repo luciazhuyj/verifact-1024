@@ -1,0 +1,59 @@
+<Slide style={{ background: '#F4F1E9', padding: '0', position: 'relative', overflow: 'hidden' }}>
+
+  {/* 背景巨型淡印 */}
+  <Box style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', opacity: 0.05, alignItems: 'flex-end', justifyContent: 'flex-end' }}>
+    <svg width={640} height={640} viewBox='0 0 300 300'>
+      <circle cx='150' cy='150' r='132' fill='none' stroke='#A8351A' strokeWidth='9' />
+      <circle cx='150' cy='150' r='116' fill='none' stroke='#A8351A' strokeWidth='3' />
+    </svg>
+  </Box>
+
+  <Box style={{ flexDirection: 'row', height: '100%', padding: '56px 72px', position: 'relative', zIndex: 1 }}>
+
+    {/* 左 · 文字骑入 */}
+    <Box style={{ flex: 1, justifyContent: 'center', gap: 0 }}>
+
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 15, color: '#3F4A55', letterSpacing: 3, marginBottom: 22 }}>
+        VERIFACT / VF-1024
+      </Text>
+
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 68, fontWeight: 'bold', color: '#1A1A1A', lineHeight: 1.2 }}>
+        求真社
+      </Text>
+
+      <Box style={{ width: 68, height: 5, background: '#A8351A', marginTop: 22, marginBottom: 22 }} />
+
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 30, color: '#1A1A1A', lineHeight: 1.5 }}>
+        一条传言，一份卷宗
+      </Text>
+
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 19, color: '#3F4A55', lineHeight: 1.7, marginTop: 26 }}>
+        把那条听起来很真的话交进来<br />
+        我们把它拆开，去全网搜证据<br />
+        带来源回来，盖一个章
+      </Text>
+
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#3F4A55', opacity: 0.75, marginTop: 46, lineHeight: 1.6 }}>
+        WaytoAGI 1024 切磋大会 · 侦探赛道<br />
+        检索驱动：元宝搜索
+      </Text>
+
+    </Box>
+
+    {/* 右 · L1 巨型朱砂印章 */}
+    <Box style={{ width: 470, alignItems: 'center', justifyContent: 'center' }}>
+      <svg width={420} height={420} viewBox='0 0 300 300'>
+        <circle cx='150' cy='150' r='138' fill='rgba(168,53,26,0.06)' stroke='#A8351A' strokeWidth='8' />
+        <circle cx='150' cy='150' r='124' fill='none' stroke='#A8351A' strokeWidth='2.5' />
+        <text x='150' y='128' textAnchor='middle' fontFamily='Songti SC' fontSize='62' fontWeight='bold' fill='#A8351A'>查</text>
+        <text x='150' y='196' textAnchor='middle' fontFamily='Songti SC' fontSize='62' fontWeight='bold' fill='#A8351A'>真</text>
+        <text x='150' y='234' textAnchor='middle' fontFamily='PingFang SC' fontSize='13' fill='#A8351A' letterSpacing='3'>VERIFACT</text>
+      </svg>
+    </Box>
+
+  </Box>
+
+  {/* 底部朱砂条 */}
+  <Box style={{ position: 'absolute', left: 0, bottom: 0, width: '100%', height: 8, background: '#A8351A' }} />
+
+</Slide>

@@ -1,0 +1,41 @@
+<Slide style={{ background: '#F4F1E9', padding: '0', position: 'relative', overflow: 'hidden', justifyContent: 'center', alignItems: 'center' }}>
+
+  {/* 背景巨型淡印 */}
+  <Box style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', opacity: 0.06, alignItems: 'center', justifyContent: 'center' }}>
+    <svg width={660} height={660} viewBox='0 0 300 300'>
+      <circle cx='150' cy='150' r='132' fill='none' stroke='#A8351A' strokeWidth='9' />
+      <circle cx='150' cy='150' r='116' fill='none' stroke='#A8351A' strokeWidth='3' />
+    </svg>
+  </Box>
+
+  {/* 主印章 */}
+  <Box style={{ position: 'relative', zIndex: 1, alignItems: 'center' }}>
+    <svg width={360} height={360} viewBox='0 0 300 300'>
+      <circle cx='150' cy='150' r='138' fill='rgba(168,53,26,0.07)' stroke='#A8351A' strokeWidth='8' />
+      <circle cx='150' cy='150' r='124' fill='none' stroke='#A8351A' strokeWidth='2.5' />
+      <text x='150' y='130' textAnchor='middle' fontFamily='Songti SC' fontSize='64' fontWeight='bold' fill='#A8351A'>查</text>
+      <text x='150' y='200' textAnchor='middle' fontFamily='Songti SC' fontSize='64' fontWeight='bold' fill='#A8351A'>真</text>
+      <text x='150' y='238' textAnchor='middle' fontFamily='PingFang SC' fontSize='13' fill='#A8351A' letterSpacing='3'>VERIFACT</text>
+    </svg>
+  </Box>
+
+  {/* 金句 */}
+  <Text style={{ fontFamily: 'Songti SC', fontSize: 58, fontWeight: 'bold', color: '#1A1A1A', textAlign: 'center', marginTop: 26, position: 'relative', zIndex: 1 }}>
+    少点幻觉，多点搜索
+  </Text>
+
+  <Text style={{ fontFamily: 'Songti SC', fontSize: 26, color: '#3F4A55', textAlign: 'center', marginTop: 20, position: 'relative', zIndex: 1 }}>
+    一条传言，一份卷宗
+  </Text>
+
+  <Box style={{ width: 80, height: 4, background: '#A8351A', marginTop: 26, position: 'relative', zIndex: 1 }} />
+
+  <Text style={{ fontFamily: 'PingFang SC', fontSize: 16, color: '#3F4A55', textAlign: 'center', marginTop: 24, lineHeight: 1.7, position: 'relative', zIndex: 1 }}>
+    luciazhuyj.github.io/verifact-1024<br />
+    WaytoAGI 1024 切磋大会 · 侦探赛道 ｜ 检索驱动：元宝搜索
+  </Text>
+
+  {/* 底部朱砂条 */}
+  <Box style={{ position: 'absolute', left: 0, bottom: 0, width: '100%', height: 8, background: '#A8351A' }} />
+
+</Slide>

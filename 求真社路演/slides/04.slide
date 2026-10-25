@@ -1,0 +1,104 @@
+<Slide style={{ background: '#F4F1E9', padding: '20px 72px' }}>
+
+  {/* A · 标题块 */}
+  <Box style={{ height: 100, flexDirection: 'row', alignItems: 'flex-end', gap: 12 }}>
+    <Box style={{ width: 5, height: 26, background: '#A8351A' }} />
+    <Text style={{ fontFamily: 'Songti SC', fontSize: 34, fontWeight: 'bold', color: '#1A1A1A' }}>
+      四档结论，含「不知道」
+    </Text>
+  </Box>
+
+  {/* B · 四卡横排 */}
+  <Box style={{ height: 540, flexDirection: 'row', gap: 16, paddingTop: 14 }}>
+
+    {/* 卡 1 · 属实 */}
+    <Box style={{ flex: 1, background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 4, padding: '18px 16px', justifyContent: 'space-between' }}>
+      <Box style={{ alignItems: 'center' }}>
+        <svg width={104} height={104} viewBox='0 0 120 120'>
+          <circle cx='60' cy='60' r='54' fill='rgba(46,107,79,0.08)' stroke='#2E6B4F' strokeWidth='4' />
+          <circle cx='60' cy='60' r='46' fill='none' stroke='#2E6B4F' strokeWidth='1.5' />
+          <text x='60' y='72' textAnchor='middle' fontFamily='Songti SC' fontSize='34' fontWeight='bold' fill='#2E6B4F'>属实</text>
+        </svg>
+      </Box>
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 25, fontWeight: '600', color: '#1A1A1A', textAlign: 'center', marginTop: 14 }}>
+        属实
+      </Text>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#3F4A55', lineHeight: 1.65, marginTop: 12 }}>
+        多个彼此独立的权威来源口径一致，且没有发现可信的反证。这一档可以放心采信，直接照着做。
+      </Text>
+      <Box style={{ borderTop: '1px dashed rgba(63,74,85,0.30)', paddingTop: 10, marginTop: 'auto' }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#2E6B4F' }}>判定依据 ≥ 2 个独立权威来源</Text>
+      </Box>
+    </Box>
+
+    {/* 卡 2 · 不实 */}
+    <Box style={{ flex: 1, background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 4, padding: '18px 16px', justifyContent: 'space-between' }}>
+      <Box style={{ alignItems: 'center' }}>
+        <svg width={104} height={104} viewBox='0 0 120 120'>
+          <circle cx='60' cy='60' r='54' fill='rgba(168,53,26,0.08)' stroke='#A8351A' strokeWidth='4' />
+          <circle cx='60' cy='60' r='46' fill='none' stroke='#A8351A' strokeWidth='1.5' />
+          <text x='60' y='72' textAnchor='middle' fontFamily='Songti SC' fontSize='34' fontWeight='bold' fill='#A8351A'>不实</text>
+        </svg>
+      </Box>
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 25, fontWeight: '600', color: '#1A1A1A', textAlign: 'center', marginTop: 14 }}>
+        不实
+      </Text>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#3F4A55', lineHeight: 1.65, marginTop: 12 }}>
+        权威来源明确否定，或者原话被删掉了关键前提——把剂量、范围、条件拿掉再传播，就是典型的夸大。
+      </Text>
+      <Box style={{ borderTop: '1px dashed rgba(63,74,85,0.30)', paddingTop: 10, marginTop: 'auto' }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#A8351A' }}>常见形态：真骨架 + 假前提</Text>
+      </Box>
+    </Box>
+
+    {/* 卡 3 · 部分属实 */}
+    <Box style={{ flex: 1, background: '#FDFCF7', border: '1px solid rgba(26,26,26,0.14)', borderRadius: 4, padding: '18px 16px', justifyContent: 'space-between' }}>
+      <Box style={{ alignItems: 'center' }}>
+        <svg width={104} height={104} viewBox='0 0 120 120'>
+          <circle cx='60' cy='60' r='54' fill='rgba(182,105,14,0.10)' stroke='#B6690E' strokeWidth='4' />
+          <circle cx='60' cy='60' r='46' fill='none' stroke='#B6690E' strokeWidth='1.5' />
+          <text x='60' y='66' textAnchor='middle' fontFamily='Songti SC' fontSize='30' fontWeight='bold' fill='#B6690E'>部分</text>
+          <text x='60' y='96' textAnchor='middle' fontFamily='Songti SC' fontSize='30' fontWeight='bold' fill='#B6690E'>属实</text>
+        </svg>
+      </Box>
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 25, fontWeight: '600', color: '#1A1A1A', textAlign: 'center', marginTop: 14 }}>
+        部分属实
+      </Text>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#3F4A55', lineHeight: 1.65, marginTop: 12 }}>
+        事实骨架是真的，但剂量、范围或程度被放大了。这也是传言最难对付的一种——它确实有一半是真的。
+      </Text>
+      <Box style={{ borderTop: '1px dashed rgba(63,74,85,0.30)', paddingTop: 10, marginTop: 'auto' }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#B6690E' }}>必须写出「夸在哪」</Text>
+      </Box>
+    </Box>
+
+    {/* 卡 4 · 查无实据 */}
+    <Box style={{ flex: 1, background: '#FDFCF7', border: '2px solid #A8351A', borderRadius: 4, padding: '18px 16px', justifyContent: 'space-between' }}>
+      <Box style={{ alignItems: 'center' }}>
+        <svg width={104} height={104} viewBox='0 0 120 120'>
+          <circle cx='60' cy='60' r='54' fill='rgba(63,74,85,0.10)' stroke='#3F4A55' strokeWidth='4' />
+          <circle cx='60' cy='60' r='46' fill='none' stroke='#3F4A55' strokeWidth='1.5' />
+          <text x='60' y='72' textAnchor='middle' fontFamily='Songti SC' fontSize='30' fontWeight='bold' fill='#3F4A55'>查无</text>
+          <text x='60' y='98' textAnchor='middle' fontFamily='Songti SC' fontSize='30' fontWeight='bold' fill='#3F4A55'>实据</text>
+        </svg>
+      </Box>
+      <Text style={{ fontFamily: 'Songti SC', fontSize: 25, fontWeight: '600', color: '#A8351A', textAlign: 'center', marginTop: 14 }}>
+        查无实据
+      </Text>
+      <Text style={{ fontFamily: 'PingFang SC', fontSize: 17, color: '#3F4A55', lineHeight: 1.65, marginTop: 12 }}>
+        证据不够，就明确说不知道，并把本该执行的检索式原样列出来给你看。这一档不是兜底，是规矩。
+      </Text>
+      <Box style={{ borderTop: '1px dashed rgba(63,74,85,0.30)', paddingTop: 10, marginTop: 'auto' }}>
+        <Text style={{ fontFamily: 'PingFang SC', fontSize: 14, color: '#A8351A', fontWeight: 'bold' }}>宁可说不知道，也不编一个像真的答案</Text>
+      </Box>
+    </Box>
+
+  </Box>
+
+  {/* C · 页脚 */}
+  <Box style={{ height: 40, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55', opacity: 0.6 }}>求真社 · Verifact</Text>
+    <Text style={{ fontFamily: 'PingFang SC', fontSize: 12, color: '#3F4A55' }}>04 / 12</Text>
+  </Box>
+
+</Slide>

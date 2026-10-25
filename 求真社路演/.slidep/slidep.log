@@ -1,0 +1,442 @@
+=== boot pid=50989 ts=2026-10-25 08:33:13.347 cwd=/Users/luciazhu/Documents/project/zhentan/求真社路演 argv=/Users/luciazhu/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-start --project /Users/luciazhu/Documents/project/zhentan/求真社路演 --filename 求真社路演.pptx ===
+[2026-10-25 08:33:13.346] [INFO ] [pid=50989] [start] invoked pid=50989 cwd=/Users/luciazhu/Documents/project/zhentan/求真社路演 daemonChild=no dev=no argv=[--project /Users/luciazhu/Documents/project/zhentan/求真社路演 --filename 求真社路演.pptx]
+[2026-10-25 08:33:13.347] [INFO ] [pid=50989] [start] spawning daemon projectDir=/Users/luciazhu/Documents/project/zhentan/求真社路演 filename=求真社路演.pptx
+[2026-10-25 08:33:13.351] [INFO ] [pid=50989] [start] daemon spawned childPid=51015; waiting started ipc
+=== boot pid=51015 ts=2026-10-25 08:33:14.368 cwd=/Users/luciazhu/Documents/project/zhentan/求真社路演 argv=/Users/luciazhu/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-start --project /Users/luciazhu/Documents/project/zhentan/求真社路演 --filename 求真社路演.pptx --__daemon-child ===
+[2026-10-25 08:33:14.365] [INFO ] [pid=51015] [start] invoked pid=51015 cwd=/Users/luciazhu/Documents/project/zhentan/求真社路演 daemonChild=yes dev=no argv=[--project /Users/luciazhu/Documents/project/zhentan/求真社路演 --filename 求真社路演.pptx --__daemon-child]
+[2026-10-25 08:33:14.369] [INFO ] [pid=51015] [start] daemon child runWorker ppid=50989
+[2026-10-25 08:33:14.369] [INFO ] [pid=51015] [worker] start projectDir=/Users/luciazhu/Documents/project/zhentan/求真社路演 filename=求真社路演.pptx version=5.4.4
+[2026-10-25 08:33:14.371] [INFO ] [pid=51015] [worker] init ok dirs=ready
+[2026-10-25 08:33:14.372] [INFO ] [pid=51015] [server-url] env TENCENT_DOCS_LOCAL_MCP = http://127.0.0.1:39099/mcp
+[2026-10-25 08:33:14.372] [INFO ] [pid=51015] [worker] openFile start
+[2026-10-25 08:33:14.375] [INFO ] [pid=51015] [open-file] copy blank.pptx start src=/Users/luciazhu/.workbuddy/binaries/node/versions/22.22.2/lib/node_modules/@tencent/slidep/dist/resources/pptx/blank.pptx dest=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:33:14.379] [INFO ] [pid=51015] [open-file] copy blank.pptx ok dest=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=4
+[2026-10-25 08:33:14.434] [ERROR] [pid=51015] [http] editorStatus http 404 url=http://127.0.0.1:39099/api/editor/status body={"code":-1,"message":"no editor open for file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx"} ms=53
+[2026-10-25 08:33:14.434] [INFO ] [pid=51015] [open-file] open send url=http://127.0.0.1:39099/localapi/open filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:33:14.456] [INFO ] [pid=51015] [open-file] open ok fileId=A691167C fileType=slide filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=22
+[2026-10-25 08:33:14.456] [INFO ] [pid=51015] [worker] openFile ok fileId=A691167C filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:33:14.457] [INFO ] [pid=51015] [worker] previewUrl=http://127.0.0.1:39099/static/slide/pc.html?local_edit=1&client=sdk_local&localFilePath=%2FUsers%2Fluciazhu%2FDocuments%2Fproject%2Fzhentan%2F%E6%B1%82%E7%9C%9F%E7%A4%BE%E8%B7%AF%E6%BC%94%2F%E6%B1%82%E7%9C%9F%E7%A4%BE%E8%B7%AF%E6%BC%94.pptx
+[2026-10-25 08:33:14.457] [INFO ] [pid=51015] [state] state.json not found, creating path=/Users/luciazhu/Documents/project/zhentan/求真社路演/.slidep/state.json filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:33:14.458] [INFO ] [pid=51015] [worker] commitEndpoint=http://127.0.0.1:39099/localapi/commitrevision
+[2026-10-25 08:33:14.461] [INFO ] [pid=51015] [mcp] mcp:slide_get_info send url=http://127.0.0.1:39099/mcp args={"file_id":"A691167C-45BB-4243-986E-023AACE5A683"}
+[2026-10-25 08:33:14.467] [INFO ] [pid=51015] [mcp] mcp:slide_get_info ok ms=5
+[2026-10-25 08:33:14.467] [INFO ] [pid=51015] [purge] purge start backendSlideCount=0
+[2026-10-25 08:33:14.467] [INFO ] [pid=51015] [purge] purge ok removed=0 ms=9
+[2026-10-25 08:33:14.468] [INFO ] [pid=51015] [worker] initial sync submitted pages=0
+[2026-10-25 08:33:14.468] [INFO ] [pid=51015] [sync] submit nextRound=1 dirty=<none> pendingDirtySize=0 merged=no
+[2026-10-25 08:33:14.468] [INFO ] [pid=51015] [sync] drain start round=1 pendingDirtySize=0
+[2026-10-25 08:33:14.469] [INFO ] [pid=51015] [sync] aligned round=1 attempt=1 size=0 desired=0 pendingDirtySize=0
+[2026-10-25 08:33:14.470] [INFO ] [pid=51015] [worker] ready fileId=A691167C backendUrl=http://127.0.0.1:39099 initialPages=0 ms=101
+[2026-10-25 08:33:14.470] [INFO ] [pid=51015] [sync] reconcile ok round=1 attempt=1 ms=2
+[2026-10-25 08:33:14.471] [INFO ] [pid=51015] [sync] drain end round=1 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=3
+[2026-10-25 08:33:14.472] [INFO ] [pid=50989] [start] daemon started childPid=51015 ms=1125
+[2026-10-25 08:33:14.475] [INFO ] [pid=51015] [watcher] ready dir=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides
+[2026-10-25 08:34:10.364] [INFO ] [pid=51015] [watcher] event=add file=slides/01.slide
+[2026-10-25 08:34:10.865] [INFO ] [pid=51015] [watcher] flush batch dirty=[01] size=1
+[2026-10-25 08:34:10.865] [INFO ] [pid=51015] [sync] submit nextRound=2 dirty=01 pendingDirtySize=1 merged=no
+[2026-10-25 08:34:10.865] [INFO ] [pid=51015] [sync] drain start round=2 pendingDirtySize=1
+[2026-10-25 08:34:10.866] [INFO ] [pid=51015] [sync] step=add round=2 attempt=1 pageId=01 index=0
+[2026-10-25 08:34:10.866] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=01 index=0
+[2026-10-25 08:34:10.866] [INFO ] [pid=51015] [render] start pageId=01 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/01.slide
+[2026-10-25 08:34:11.182] [INFO ] [pid=51015] [render] ok pageId=01 slides=1 ms=316
+[2026-10-25 08:34:11.182] [INFO ] [pid=51015] [render] renderSlideData result.resources={
+  images: {
+    'rel:00ci4xki': {
+      id: 'rel:00ci4xki',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/0ffa7aed8ae46e359ac3972380c1e3ca.svg'
+    },
+    'rel:017sddpg': {
+      id: 'rel:017sddpg',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/ee91d399b82c5151408c9eb47807f254.svg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-10-25 08:34:11.195] [INFO ] [pid=51015] [commit] commit send pageId=e22692 targetIndex=0 version=1 baseVersion=0 revisionBytes=11296
+[2026-10-25 08:34:11.213] [INFO ] [pid=51015] [commit] commit ok pageId=e22692 revisionId=cdd74a57 ms=17
+[2026-10-25 08:34:11.214] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=01 slideId=e22692 index=0 version=1 baseVersion=0 revisionId=cdd74a57 code=0 images=[local=2 remote=0 cached=0 failed=0] ms=348
+[2026-10-25 08:34:11.214] [INFO ] [pid=51015] [sync] aligned round=2 attempt=1 size=1 desired=1 pendingDirtySize=0
+[2026-10-25 08:34:11.214] [INFO ] [pid=51015] [sync] reconcile ok round=2 attempt=1 ms=349
+[2026-10-25 08:34:11.214] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:34:11.215] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:34:11.233] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=18
+[2026-10-25 08:34:11.233] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=19
+[2026-10-25 08:34:11.233] [INFO ] [pid=51015] [sync] drain end round=2 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=368
+[2026-10-25 08:34:56.179] [INFO ] [pid=51015] [watcher] event=add file=slides/02.slide
+[2026-10-25 08:34:56.679] [INFO ] [pid=51015] [watcher] flush batch dirty=[02] size=1
+[2026-10-25 08:34:56.680] [INFO ] [pid=51015] [sync] submit nextRound=3 dirty=02 pendingDirtySize=1 merged=no
+[2026-10-25 08:34:56.681] [INFO ] [pid=51015] [sync] drain start round=3 pendingDirtySize=1
+[2026-10-25 08:34:56.682] [INFO ] [pid=51015] [sync] step=add round=3 attempt=1 pageId=02 index=1
+[2026-10-25 08:34:56.682] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=02 index=1
+[2026-10-25 08:34:56.682] [INFO ] [pid=51015] [render] start pageId=02 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/02.slide
+[2026-10-25 08:34:56.763] [INFO ] [pid=51015] [render] ok pageId=02 slides=1 ms=81
+[2026-10-25 08:34:56.763] [INFO ] [pid=51015] [render] renderSlideData result.resources={
+  images: {
+    'rel:0137e0cm': {
+      id: 'rel:0137e0cm',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/4af1b2bfd55fccba8859fc5f1b52e800.svg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-10-25 08:34:56.768] [INFO ] [pid=51015] [commit] commit send pageId=9a0648 targetIndex=1 version=2 baseVersion=1 revisionBytes=15892
+[2026-10-25 08:34:56.774] [INFO ] [pid=51015] [commit] commit ok pageId=9a0648 revisionId=72be3c4f ms=6
+[2026-10-25 08:34:56.774] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=02 slideId=9a0648 index=1 version=2 baseVersion=1 revisionId=72be3c4f code=0 images=[local=1 remote=0 cached=0 failed=0] ms=92
+[2026-10-25 08:34:56.775] [INFO ] [pid=51015] [sync] aligned round=3 attempt=1 size=2 desired=2 pendingDirtySize=0
+[2026-10-25 08:34:56.775] [INFO ] [pid=51015] [sync] reconcile ok round=3 attempt=1 ms=94
+[2026-10-25 08:34:56.775] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:34:56.775] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:34:56.791] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=16
+[2026-10-25 08:34:56.792] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=17
+[2026-10-25 08:34:56.792] [INFO ] [pid=51015] [sync] drain end round=3 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=111
+[2026-10-25 08:35:52.443] [INFO ] [pid=51015] [watcher] event=add file=slides/03.slide
+[2026-10-25 08:35:52.944] [INFO ] [pid=51015] [watcher] flush batch dirty=[03] size=1
+[2026-10-25 08:35:52.944] [INFO ] [pid=51015] [sync] submit nextRound=4 dirty=03 pendingDirtySize=1 merged=no
+[2026-10-25 08:35:52.944] [INFO ] [pid=51015] [sync] drain start round=4 pendingDirtySize=1
+[2026-10-25 08:35:52.945] [INFO ] [pid=51015] [sync] step=add round=4 attempt=1 pageId=03 index=2
+[2026-10-25 08:35:52.945] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=03 index=2
+[2026-10-25 08:35:52.945] [INFO ] [pid=51015] [render] start pageId=03 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/03.slide
+[2026-10-25 08:35:52.988] [INFO ] [pid=51015] [render] ok pageId=03 slides=1 ms=43
+[2026-10-25 08:35:52.988] [INFO ] [pid=51015] [render] renderSlideData result.resources={
+  images: {
+    'rel:005l7zgm': {
+      id: 'rel:005l7zgm',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/a96f2823d1a101f854664e34a35acad8.svg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-10-25 08:35:52.992] [INFO ] [pid=51015] [commit] commit send pageId=e1eebc targetIndex=2 version=3 baseVersion=2 revisionBytes=22684
+[2026-10-25 08:35:52.997] [INFO ] [pid=51015] [commit] commit ok pageId=e1eebc revisionId=e8f48022 ms=5
+[2026-10-25 08:35:52.998] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=03 slideId=e1eebc index=2 version=3 baseVersion=2 revisionId=e8f48022 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=53
+[2026-10-25 08:35:52.998] [INFO ] [pid=51015] [sync] aligned round=4 attempt=1 size=3 desired=3 pendingDirtySize=0
+[2026-10-25 08:35:52.998] [INFO ] [pid=51015] [sync] reconcile ok round=4 attempt=1 ms=53
+[2026-10-25 08:35:52.998] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:35:52.998] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:35:53.008] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=10
+[2026-10-25 08:35:53.008] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=10
+[2026-10-25 08:35:53.008] [INFO ] [pid=51015] [sync] drain end round=4 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=64
+[2026-10-25 08:36:38.381] [INFO ] [pid=51015] [watcher] event=add file=slides/04.slide
+[2026-10-25 08:36:38.883] [INFO ] [pid=51015] [watcher] flush batch dirty=[04] size=1
+[2026-10-25 08:36:38.883] [INFO ] [pid=51015] [sync] submit nextRound=5 dirty=04 pendingDirtySize=1 merged=no
+[2026-10-25 08:36:38.883] [INFO ] [pid=51015] [sync] drain start round=5 pendingDirtySize=1
+[2026-10-25 08:36:38.886] [INFO ] [pid=51015] [sync] step=add round=5 attempt=1 pageId=04 index=3
+[2026-10-25 08:36:38.886] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=04 index=3
+[2026-10-25 08:36:38.886] [INFO ] [pid=51015] [render] start pageId=04 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/04.slide
+[2026-10-25 08:36:38.976] [INFO ] [pid=51015] [render] ok pageId=04 slides=1 ms=90
+[2026-10-25 08:36:38.976] [INFO ] [pid=51015] [render] renderSlideData result.resources={
+  images: {
+    'rel:01o6361c': {
+      id: 'rel:01o6361c',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/417d26637657b18e63f56762b8080f49.svg'
+    },
+    'rel:001ijlbz': {
+      id: 'rel:001ijlbz',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/3fda9a63b17bb3b0165b6e385629f8f1.svg'
+    },
+    'rel:01kw9uum': {
+      id: 'rel:01kw9uum',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/69d3db763c3854f4fbb1b4671db55f35.svg'
+    },
+    'rel:01jtf1si': {
+      id: 'rel:01jtf1si',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/030bab6752477297024937db8a86a90d.svg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-10-25 08:36:38.982] [INFO ] [pid=51015] [commit] commit send pageId=e0fb2a targetIndex=3 version=4 baseVersion=3 revisionBytes=28024
+[2026-10-25 08:36:38.988] [INFO ] [pid=51015] [commit] commit ok pageId=e0fb2a revisionId=4c832626 ms=6
+[2026-10-25 08:36:38.988] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=04 slideId=e0fb2a index=3 version=4 baseVersion=3 revisionId=4c832626 code=0 images=[local=4 remote=0 cached=0 failed=0] ms=102
+[2026-10-25 08:36:38.989] [INFO ] [pid=51015] [sync] aligned round=5 attempt=1 size=4 desired=4 pendingDirtySize=0
+[2026-10-25 08:36:38.989] [INFO ] [pid=51015] [sync] reconcile ok round=5 attempt=1 ms=106
+[2026-10-25 08:36:38.989] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:36:38.989] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:36:39.002] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=12
+[2026-10-25 08:36:39.002] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=13
+[2026-10-25 08:36:39.002] [INFO ] [pid=51015] [sync] drain end round=5 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=119
+[2026-10-25 08:37:20.945] [INFO ] [pid=51015] [watcher] event=add file=slides/05.slide
+[2026-10-25 08:37:21.448] [INFO ] [pid=51015] [watcher] flush batch dirty=[05] size=1
+[2026-10-25 08:37:21.448] [INFO ] [pid=51015] [sync] submit nextRound=6 dirty=05 pendingDirtySize=1 merged=no
+[2026-10-25 08:37:21.448] [INFO ] [pid=51015] [sync] drain start round=6 pendingDirtySize=1
+[2026-10-25 08:37:21.448] [INFO ] [pid=51015] [sync] step=add round=6 attempt=1 pageId=05 index=4
+[2026-10-25 08:37:21.448] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=05 index=4
+[2026-10-25 08:37:21.448] [INFO ] [pid=51015] [render] start pageId=05 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/05.slide
+[2026-10-25 08:37:21.542] [INFO ] [pid=51015] [render] ok pageId=05 slides=1 ms=94
+[2026-10-25 08:37:21.542] [INFO ] [pid=51015] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-10-25 08:37:21.546] [INFO ] [pid=51015] [commit] commit send pageId=c08450 targetIndex=4 version=5 baseVersion=4 revisionBytes=33552
+[2026-10-25 08:37:21.552] [INFO ] [pid=51015] [commit] commit ok pageId=c08450 revisionId=5a77ab7e ms=5
+[2026-10-25 08:37:21.553] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=05 slideId=c08450 index=4 version=5 baseVersion=4 revisionId=5a77ab7e code=0 images=[local=0 remote=0 cached=0 failed=0] ms=105
+[2026-10-25 08:37:21.553] [INFO ] [pid=51015] [sync] aligned round=6 attempt=1 size=5 desired=5 pendingDirtySize=0
+[2026-10-25 08:37:21.553] [INFO ] [pid=51015] [sync] reconcile ok round=6 attempt=1 ms=105
+[2026-10-25 08:37:21.553] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:37:21.554] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:37:21.568] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=14
+[2026-10-25 08:37:21.568] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=15
+[2026-10-25 08:37:21.568] [INFO ] [pid=51015] [sync] drain end round=6 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=120
+[2026-10-25 08:38:04.922] [INFO ] [pid=51015] [watcher] event=add file=slides/06.slide
+[2026-10-25 08:38:05.423] [INFO ] [pid=51015] [watcher] flush batch dirty=[06] size=1
+[2026-10-25 08:38:05.423] [INFO ] [pid=51015] [sync] submit nextRound=7 dirty=06 pendingDirtySize=1 merged=no
+[2026-10-25 08:38:05.423] [INFO ] [pid=51015] [sync] drain start round=7 pendingDirtySize=1
+[2026-10-25 08:38:05.424] [INFO ] [pid=51015] [sync] step=add round=7 attempt=1 pageId=06 index=5
+[2026-10-25 08:38:05.424] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=06 index=5
+[2026-10-25 08:38:05.424] [INFO ] [pid=51015] [render] start pageId=06 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/06.slide
+[2026-10-25 08:38:05.501] [INFO ] [pid=51015] [render] ok pageId=06 slides=1 ms=77
+[2026-10-25 08:38:05.501] [INFO ] [pid=51015] [render] renderSlideData result.resources={
+  images: {
+    'rel:01gvakob': {
+      id: 'rel:01gvakob',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/49fbb4a1f90d52767af417eab5a718c8.svg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-10-25 08:38:05.507] [INFO ] [pid=51015] [commit] commit send pageId=7b6cac targetIndex=5 version=6 baseVersion=5 revisionBytes=28068
+[2026-10-25 08:38:05.515] [INFO ] [pid=51015] [commit] commit ok pageId=7b6cac revisionId=dd7daea6 ms=8
+[2026-10-25 08:38:05.516] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=06 slideId=7b6cac index=5 version=6 baseVersion=5 revisionId=dd7daea6 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=92
+[2026-10-25 08:38:05.516] [INFO ] [pid=51015] [sync] aligned round=7 attempt=1 size=6 desired=6 pendingDirtySize=0
+[2026-10-25 08:38:05.516] [INFO ] [pid=51015] [sync] reconcile ok round=7 attempt=1 ms=93
+[2026-10-25 08:38:05.516] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:38:05.517] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:38:05.538] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=21
+[2026-10-25 08:38:05.538] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=22
+[2026-10-25 08:38:05.538] [INFO ] [pid=51015] [sync] drain end round=7 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=115
+[2026-10-25 08:38:33.961] [INFO ] [pid=51015] [watcher] event=add file=slides/07.slide
+[2026-10-25 08:38:34.463] [INFO ] [pid=51015] [watcher] flush batch dirty=[07] size=1
+[2026-10-25 08:38:34.463] [INFO ] [pid=51015] [sync] submit nextRound=8 dirty=07 pendingDirtySize=1 merged=no
+[2026-10-25 08:38:34.463] [INFO ] [pid=51015] [sync] drain start round=8 pendingDirtySize=1
+[2026-10-25 08:38:34.464] [INFO ] [pid=51015] [sync] step=add round=8 attempt=1 pageId=07 index=6
+[2026-10-25 08:38:34.464] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=07 index=6
+[2026-10-25 08:38:34.464] [INFO ] [pid=51015] [render] start pageId=07 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/07.slide
+[2026-10-25 08:38:34.508] [INFO ] [pid=51015] [render] ok pageId=07 slides=1 ms=44
+[2026-10-25 08:38:34.508] [INFO ] [pid=51015] [render] renderSlideData result.resources={
+  images: {
+    'rel:009z2326': {
+      id: 'rel:009z2326',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/0c24bac65cbb4bd3498a248be6a63427.svg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-10-25 08:38:34.512] [INFO ] [pid=51015] [commit] commit send pageId=864439 targetIndex=6 version=7 baseVersion=6 revisionBytes=17748
+[2026-10-25 08:38:34.517] [INFO ] [pid=51015] [commit] commit ok pageId=864439 revisionId=7c42aa72 ms=5
+[2026-10-25 08:38:34.517] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=07 slideId=864439 index=6 version=7 baseVersion=6 revisionId=7c42aa72 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=53
+[2026-10-25 08:38:34.518] [INFO ] [pid=51015] [sync] aligned round=8 attempt=1 size=7 desired=7 pendingDirtySize=0
+[2026-10-25 08:38:34.518] [INFO ] [pid=51015] [sync] reconcile ok round=8 attempt=1 ms=55
+[2026-10-25 08:38:34.518] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:38:34.518] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:38:34.550] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=32
+[2026-10-25 08:38:34.550] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=32
+[2026-10-25 08:38:34.550] [INFO ] [pid=51015] [sync] drain end round=8 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=87
+[2026-10-25 08:39:00.997] [INFO ] [pid=51015] [watcher] event=add file=slides/08.slide
+[2026-10-25 08:39:01.498] [INFO ] [pid=51015] [watcher] flush batch dirty=[08] size=1
+[2026-10-25 08:39:01.499] [INFO ] [pid=51015] [sync] submit nextRound=9 dirty=08 pendingDirtySize=1 merged=no
+[2026-10-25 08:39:01.499] [INFO ] [pid=51015] [sync] drain start round=9 pendingDirtySize=1
+[2026-10-25 08:39:01.499] [INFO ] [pid=51015] [sync] step=add round=9 attempt=1 pageId=08 index=7
+[2026-10-25 08:39:01.499] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=08 index=7
+[2026-10-25 08:39:01.499] [INFO ] [pid=51015] [render] start pageId=08 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/08.slide
+[2026-10-25 08:39:01.556] [INFO ] [pid=51015] [render] ok pageId=08 slides=1 ms=57
+[2026-10-25 08:39:01.556] [INFO ] [pid=51015] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-10-25 08:39:01.559] [INFO ] [pid=51015] [commit] commit send pageId=933a39 targetIndex=7 version=8 baseVersion=7 revisionBytes=21128
+[2026-10-25 08:39:01.564] [INFO ] [pid=51015] [commit] commit ok pageId=933a39 revisionId=d0e90b0a ms=5
+[2026-10-25 08:39:01.564] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=08 slideId=933a39 index=7 version=8 baseVersion=7 revisionId=d0e90b0a code=0 images=[local=0 remote=0 cached=0 failed=0] ms=65
+[2026-10-25 08:39:01.565] [INFO ] [pid=51015] [sync] aligned round=9 attempt=1 size=8 desired=8 pendingDirtySize=0
+[2026-10-25 08:39:01.565] [INFO ] [pid=51015] [sync] reconcile ok round=9 attempt=1 ms=66
+[2026-10-25 08:39:01.565] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:39:01.565] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:39:01.586] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=21
+[2026-10-25 08:39:01.587] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=22
+[2026-10-25 08:39:01.587] [INFO ] [pid=51015] [sync] drain end round=9 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=88
+[2026-10-25 08:39:17.805] [INFO ] [pid=51015] [watcher] event=add file=slides/09.slide
+[2026-10-25 08:39:18.307] [INFO ] [pid=51015] [watcher] flush batch dirty=[09] size=1
+[2026-10-25 08:39:18.307] [INFO ] [pid=51015] [sync] submit nextRound=10 dirty=09 pendingDirtySize=1 merged=no
+[2026-10-25 08:39:18.307] [INFO ] [pid=51015] [sync] drain start round=10 pendingDirtySize=1
+[2026-10-25 08:39:18.307] [INFO ] [pid=51015] [sync] step=add round=10 attempt=1 pageId=09 index=8
+[2026-10-25 08:39:18.308] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=09 index=8
+[2026-10-25 08:39:18.308] [INFO ] [pid=51015] [render] start pageId=09 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/09.slide
+[2026-10-25 08:39:18.339] [INFO ] [pid=51015] [render] ok pageId=09 slides=1 ms=31
+[2026-10-25 08:39:18.340] [INFO ] [pid=51015] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-10-25 08:39:18.343] [INFO ] [pid=51015] [commit] commit send pageId=2085f1 targetIndex=8 version=9 baseVersion=8 revisionBytes=11656
+[2026-10-25 08:39:18.348] [INFO ] [pid=51015] [commit] commit ok pageId=2085f1 revisionId=e0c84199 ms=4
+[2026-10-25 08:39:18.349] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=09 slideId=2085f1 index=8 version=9 baseVersion=8 revisionId=e0c84199 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=41
+[2026-10-25 08:39:18.349] [INFO ] [pid=51015] [sync] aligned round=10 attempt=1 size=9 desired=9 pendingDirtySize=0
+[2026-10-25 08:39:18.349] [INFO ] [pid=51015] [sync] reconcile ok round=10 attempt=1 ms=42
+[2026-10-25 08:39:18.349] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:39:18.350] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:39:18.373] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=22
+[2026-10-25 08:39:18.373] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=24
+[2026-10-25 08:39:18.373] [INFO ] [pid=51015] [sync] drain end round=10 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=66
+[2026-10-25 08:39:46.721] [INFO ] [pid=51015] [watcher] event=add file=slides/10.slide
+[2026-10-25 08:39:47.223] [INFO ] [pid=51015] [watcher] flush batch dirty=[10] size=1
+[2026-10-25 08:39:47.223] [INFO ] [pid=51015] [sync] submit nextRound=11 dirty=10 pendingDirtySize=1 merged=no
+[2026-10-25 08:39:47.223] [INFO ] [pid=51015] [sync] drain start round=11 pendingDirtySize=1
+[2026-10-25 08:39:47.224] [INFO ] [pid=51015] [sync] step=add round=11 attempt=1 pageId=10 index=9
+[2026-10-25 08:39:47.224] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=10 index=9
+[2026-10-25 08:39:47.224] [INFO ] [pid=51015] [render] start pageId=10 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/10.slide
+[2026-10-25 08:39:47.367] [INFO ] [pid=51015] [render] ok pageId=10 slides=1 ms=143
+[2026-10-25 08:39:47.367] [INFO ] [pid=51015] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-10-25 08:39:47.372] [INFO ] [pid=51015] [commit] commit send pageId=ee861d targetIndex=9 version=10 baseVersion=9 revisionBytes=26368
+[2026-10-25 08:39:47.405] [INFO ] [pid=51015] [commit] commit ok pageId=ee861d revisionId=6509d351 ms=32
+[2026-10-25 08:39:47.406] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=10 slideId=ee861d index=9 version=10 baseVersion=9 revisionId=6509d351 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=182
+[2026-10-25 08:39:47.406] [INFO ] [pid=51015] [sync] aligned round=11 attempt=1 size=10 desired=10 pendingDirtySize=0
+[2026-10-25 08:39:47.406] [INFO ] [pid=51015] [sync] reconcile ok round=11 attempt=1 ms=182
+[2026-10-25 08:39:47.406] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:39:47.406] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:39:47.462] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=54
+[2026-10-25 08:39:47.462] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=56
+[2026-10-25 08:39:47.462] [INFO ] [pid=51015] [sync] drain end round=11 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=239
+[2026-10-25 08:40:11.306] [INFO ] [pid=51015] [watcher] event=add file=slides/11.slide
+[2026-10-25 08:40:11.807] [INFO ] [pid=51015] [watcher] flush batch dirty=[11] size=1
+[2026-10-25 08:40:11.808] [INFO ] [pid=51015] [sync] submit nextRound=12 dirty=11 pendingDirtySize=1 merged=no
+[2026-10-25 08:40:11.808] [INFO ] [pid=51015] [sync] drain start round=12 pendingDirtySize=1
+[2026-10-25 08:40:11.809] [INFO ] [pid=51015] [sync] step=add round=12 attempt=1 pageId=11 index=10
+[2026-10-25 08:40:11.809] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=11 index=10
+[2026-10-25 08:40:11.809] [INFO ] [pid=51015] [render] start pageId=11 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/11.slide
+[2026-10-25 08:40:11.929] [INFO ] [pid=51015] [render] ok pageId=11 slides=1 ms=120
+[2026-10-25 08:40:11.930] [INFO ] [pid=51015] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-10-25 08:40:11.937] [INFO ] [pid=51015] [commit] commit send pageId=91cb52 targetIndex=10 version=11 baseVersion=10 revisionBytes=18380
+[2026-10-25 08:40:11.944] [INFO ] [pid=51015] [commit] commit ok pageId=91cb52 revisionId=b99b5464 ms=6
+[2026-10-25 08:40:11.946] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=11 slideId=91cb52 index=10 version=11 baseVersion=10 revisionId=b99b5464 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=137
+[2026-10-25 08:40:11.946] [INFO ] [pid=51015] [sync] aligned round=12 attempt=1 size=11 desired=11 pendingDirtySize=0
+[2026-10-25 08:40:11.946] [INFO ] [pid=51015] [sync] reconcile ok round=12 attempt=1 ms=138
+[2026-10-25 08:40:11.946] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:40:11.946] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:40:11.982] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=36
+[2026-10-25 08:40:11.983] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=37
+[2026-10-25 08:40:11.983] [INFO ] [pid=51015] [sync] drain end round=12 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=175
+[2026-10-25 08:40:26.666] [INFO ] [pid=51015] [watcher] event=add file=slides/12.slide
+[2026-10-25 08:40:27.168] [INFO ] [pid=51015] [watcher] flush batch dirty=[12] size=1
+[2026-10-25 08:40:27.168] [INFO ] [pid=51015] [sync] submit nextRound=13 dirty=12 pendingDirtySize=1 merged=no
+[2026-10-25 08:40:27.168] [INFO ] [pid=51015] [sync] drain start round=13 pendingDirtySize=1
+[2026-10-25 08:40:27.169] [INFO ] [pid=51015] [sync] step=add round=13 attempt=1 pageId=12 index=11
+[2026-10-25 08:40:27.169] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=12 index=11
+[2026-10-25 08:40:27.169] [INFO ] [pid=51015] [render] start pageId=12 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/12.slide
+[2026-10-25 08:40:27.215] [INFO ] [pid=51015] [render] ok pageId=12 slides=1 ms=46
+[2026-10-25 08:40:27.216] [INFO ] [pid=51015] [render] renderSlideData result.resources={
+  images: {
+    'rel:01ogz9kg': {
+      id: 'rel:01ogz9kg',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/6b62e1711eeb9b6f5747b93a1c01473e.svg'
+    },
+    'rel:00r80ae2': {
+      id: 'rel:00r80ae2',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/63f9f04ebf8387608af5775f91ceeba2.svg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-10-25 08:40:27.222] [INFO ] [pid=51015] [commit] commit send pageId=a23b3c targetIndex=11 version=12 baseVersion=11 revisionBytes=9416
+[2026-10-25 08:40:27.231] [INFO ] [pid=51015] [commit] commit ok pageId=a23b3c revisionId=de1cea1d ms=9
+[2026-10-25 08:40:27.232] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=12 slideId=a23b3c index=11 version=12 baseVersion=11 revisionId=de1cea1d code=0 images=[local=2 remote=0 cached=0 failed=0] ms=63
+[2026-10-25 08:40:27.232] [INFO ] [pid=51015] [sync] aligned round=13 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-10-25 08:40:27.232] [INFO ] [pid=51015] [sync] reconcile ok round=13 attempt=1 ms=64
+[2026-10-25 08:40:27.232] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:40:27.232] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:40:27.273] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=40
+[2026-10-25 08:40:27.273] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=41
+[2026-10-25 08:40:27.273] [INFO ] [pid=51015] [sync] drain end round=13 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=105
+=== boot pid=69190 ts=2026-10-25 08:40:39.262 cwd=/Users/luciazhu/Documents/project/zhentan/求真社路演 argv=/Users/luciazhu/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-validate --all --project /Users/luciazhu/Documents/project/zhentan/求真社路演 ===
+[2026-10-25 08:40:39.260] [INFO ] [pid=69190] [validate] --all mode: found 12 files in /Users/luciazhu/Documents/project/zhentan/求真社路演/slides
+[2026-10-25 08:40:39.263] [INFO ] [pid=69190] [validate] batch start files=12 checkOverflow=true
+[2026-10-25 08:40:40.512] [INFO ] [pid=69190] [validate] batch done total=12 passed=10 failed=2 ms=1252
+[2026-10-25 08:40:55.748] [INFO ] [pid=51015] [watcher] event=change file=slides/01.slide
+[2026-10-25 08:40:56.252] [INFO ] [pid=51015] [watcher] flush batch dirty=[01] size=1
+[2026-10-25 08:40:56.253] [INFO ] [pid=51015] [sync] submit nextRound=14 dirty=01 pendingDirtySize=1 merged=no
+[2026-10-25 08:40:56.253] [INFO ] [pid=51015] [sync] drain start round=14 pendingDirtySize=1
+[2026-10-25 08:40:56.255] [INFO ] [pid=51015] [sync] step=remove-dirty round=14 attempt=1 pageId=01 index=0
+[2026-10-25 08:40:56.256] [INFO ] [pid=51015] [backend-ops] removeSlideAt start index=0
+[2026-10-25 08:40:56.282] [INFO ] [pid=51015] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mvnklz80_c3pc0v0z","page_index":0}
+[2026-10-25 08:40:56.314] [INFO ] [pid=51015] [mcp] mcp:slide_remove_slide ok ms=30
+[2026-10-25 08:40:56.314] [INFO ] [pid=51015] [backend-ops] removeSlideAt ok index=0 serverVersion=13 ms=58
+[2026-10-25 08:40:56.315] [INFO ] [pid=51015] [sync] step=add round=14 attempt=1 pageId=01 index=0
+[2026-10-25 08:40:56.315] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=01 index=0
+[2026-10-25 08:40:56.316] [INFO ] [pid=51015] [render] start pageId=01 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/01.slide
+[2026-10-25 08:40:56.415] [INFO ] [pid=51015] [render] ok pageId=01 slides=1 ms=100
+[2026-10-25 08:40:56.415] [INFO ] [pid=51015] [render] renderSlideData result.resources={
+  images: {
+    'rel:019afa86': {
+      id: 'rel:019afa86',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/5ca2dd4b671d792816d0467ae590771d.svg'
+    },
+    'rel:017sddpg': {
+      id: 'rel:017sddpg',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/ee91d399b82c5151408c9eb47807f254.svg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-10-25 08:40:56.427] [INFO ] [pid=51015] [commit] commit send pageId=e423a8 targetIndex=0 version=13 baseVersion=13 revisionBytes=11148
+[2026-10-25 08:40:56.492] [INFO ] [pid=51015] [commit] commit ok pageId=e423a8 revisionId=c96fd003 ms=65
+[2026-10-25 08:40:56.494] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=01 slideId=e423a8 index=0 version=13 baseVersion=13 revisionId=c96fd003 code=0 images=[local=2 remote=0 cached=0 failed=0] ms=179
+[2026-10-25 08:40:56.494] [INFO ] [pid=51015] [sync] aligned round=14 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-10-25 08:40:56.494] [INFO ] [pid=51015] [sync] reconcile ok round=14 attempt=1 ms=241
+[2026-10-25 08:40:56.494] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:40:56.494] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:40:56.505] [ERROR] [pid=51015] [http] save http 500 url=http://127.0.0.1:39099/localapi/save body={"code":10201,"message":"[10201]Export file is occupied: /Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx@TimePointBegin1792917656497|2@TimePointEnd"} ms=10
+[2026-10-25 08:40:56.507] [ERROR] [pid=51015] [backend-ops] save FAIL file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=13
+[2026-10-25 08:40:56.507] [ERROR] [pid=51015] [sync] save FAIL round=14 HttpStatusError: save bad response: HTTP 500 body={"code":10201,"message":"[10201]Export file is occupied: /Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx@TimePointBegin1792917656497|2@TimePointEnd"}
+    at v6 (/Users/luciazhu/.workbuddy/binaries/node/versions/22.22.2/lib/node_modules/@tencent/slidep/dist/slidep.js:5995:476590)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async /Users/luciazhu/.workbuddy/binaries/node/versions/22.22.2/lib/node_modules/@tencent/slidep/dist/slidep.js:5995:485008
+    at async Sw.withReopenRetry (/Users/luciazhu/.workbuddy/binaries/node/versions/22.22.2/lib/node_modules/@tencent/slidep/dist/slidep.js:5995:483350)
+    at async mh.save (/Users/luciazhu/.workbuddy/binaries/node/versions/22.22.2/lib/node_modules/@tencent/slidep/dist/slidep.js:5993:19870)
+    at async L.drain (/Users/luciazhu/.workbuddy/binaries/node/versions/22.22.2/lib/node_modules/@tencent/slidep/dist/slidep.js:5993:22625)
+[2026-10-25 08:40:57.044] [INFO ] [pid=51015] [sync] drain end round=14 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=791
+[2026-10-25 08:41:04.812] [INFO ] [pid=51015] [watcher] event=change file=slides/12.slide
+[2026-10-25 08:41:05.342] [INFO ] [pid=51015] [watcher] flush batch dirty=[12] size=1
+[2026-10-25 08:41:05.343] [INFO ] [pid=51015] [sync] submit nextRound=15 dirty=12 pendingDirtySize=1 merged=no
+[2026-10-25 08:41:05.343] [INFO ] [pid=51015] [sync] drain start round=15 pendingDirtySize=1
+[2026-10-25 08:41:05.344] [INFO ] [pid=51015] [sync] step=remove-dirty round=15 attempt=1 pageId=12 index=11
+[2026-10-25 08:41:05.344] [INFO ] [pid=51015] [backend-ops] removeSlideAt start index=11
+[2026-10-25 08:41:05.348] [INFO ] [pid=51015] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"sid_mvnklz80_c3pc0v0z","page_index":11}
+[2026-10-25 08:41:05.351] [INFO ] [pid=51015] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-10-25 08:41:05.351] [INFO ] [pid=51015] [backend-ops] removeSlideAt ok index=11 serverVersion=15 ms=7
+[2026-10-25 08:41:05.351] [INFO ] [pid=51015] [sync] step=add round=15 attempt=1 pageId=12 index=11
+[2026-10-25 08:41:05.352] [INFO ] [pid=51015] [backend-ops] addSlideAt start pageId=12 index=11
+[2026-10-25 08:41:05.352] [INFO ] [pid=51015] [render] start pageId=12 file=/Users/luciazhu/Documents/project/zhentan/求真社路演/slides/12.slide
+[2026-10-25 08:41:05.377] [INFO ] [pid=51015] [render] ok pageId=12 slides=1 ms=25
+[2026-10-25 08:41:05.377] [INFO ] [pid=51015] [render] renderSlideData result.resources={
+  images: {
+    'rel:00xzc2ms': {
+      id: 'rel:00xzc2ms',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/1111288fb5615f2943fa1f750765ef22.svg'
+    },
+    'rel:00r80ae2': {
+      id: 'rel:00r80ae2',
+      src: '/Users/luciazhu/Documents/project/zhentan/求真社路演/.cache/media/images/63f9f04ebf8387608af5775f91ceeba2.svg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-10-25 08:41:05.381] [INFO ] [pid=51015] [commit] commit send pageId=0ccc2c targetIndex=11 version=14 baseVersion=15 revisionBytes=9276
+[2026-10-25 08:41:05.391] [INFO ] [pid=51015] [commit] commit ok pageId=0ccc2c revisionId=72b0f004 ms=10
+[2026-10-25 08:41:05.391] [INFO ] [pid=51015] [backend-ops] addSlideAt ok pageId=12 slideId=0ccc2c index=11 version=14 baseVersion=15 revisionId=72b0f004 code=0 images=[local=2 remote=0 cached=0 failed=0] ms=39
+[2026-10-25 08:41:05.392] [INFO ] [pid=51015] [sync] aligned round=15 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-10-25 08:41:05.392] [INFO ] [pid=51015] [sync] reconcile ok round=15 attempt=1 ms=49
+[2026-10-25 08:41:05.392] [INFO ] [pid=51015] [backend-ops] save start file=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:41:05.392] [INFO ] [pid=51015] [commit] save send filePath=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx
+[2026-10-25 08:41:05.450] [INFO ] [pid=51015] [commit] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=57
+[2026-10-25 08:41:05.450] [INFO ] [pid=51015] [backend-ops] save ok file_path=/Users/luciazhu/Documents/project/zhentan/求真社路演/求真社路演.pptx ms=58
+[2026-10-25 08:41:05.450] [INFO ] [pid=51015] [sync] drain end round=15 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=107
+=== boot pid=69987 ts=2026-10-25 08:41:09.767 cwd=/Users/luciazhu/Documents/project/zhentan/求真社路演 argv=/Users/luciazhu/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-validate --all --project /Users/luciazhu/Documents/project/zhentan/求真社路演 ===
+[2026-10-25 08:41:09.766] [INFO ] [pid=69987] [validate] --all mode: found 12 files in /Users/luciazhu/Documents/project/zhentan/求真社路演/slides
+[2026-10-25 08:41:09.768] [INFO ] [pid=69987] [validate] batch start files=12 checkOverflow=true
+[2026-10-25 08:41:10.551] [INFO ] [pid=69987] [validate] batch done total=12 passed=12 failed=0 ms=786
