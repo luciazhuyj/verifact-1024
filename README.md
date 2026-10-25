@@ -11,7 +11,9 @@
 
 ## 线上地址
 
-**https://b107f47e534a4899bd1410e718dfb95f.app.workbuddy.host**
+**https://luciazhuyj.github.io/verifact-1024/**
+
+仓库：https://github.com/luciazhuyj/verifact-1024
 
 ## 怎么用
 
